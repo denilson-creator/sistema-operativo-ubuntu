@@ -1,0 +1,65 @@
+========================================
+   INFORMACION DEL SISTEMA UBUNTU
+========================================
+
+===== SISTEMA OPERATIVO =====
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+Kernel: 7.0.0-31-generic
+Arquitectura: x86_64
+
+===== PROCESADOR CPU =====
+CPU(s):                                   2
+Lista de la(s) CPU(s) en línea:           0,1
+Nombre del modelo:                        Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+
+===== MEMORIA RAM =====
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           2,6Gi       1,0Gi       412Mi        23Mi       1,4Gi       1,6Gi
+Inter:         3,8Gi          0B       3,8Gi
+
+===== ALMACENAMIENTO =====
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0  66,8M  1 loop /snap/core24/1643
+loop1    7:1    0    20M  1 loop /snap/desktop-security-center/151
+loop2    7:2    0     4K  1 loop /snap/bare/5
+loop3    7:3    0 260,3M  1 loop /snap/firefox/8763
+loop4    7:4    0  16,5M  1 loop /snap/firmware-updater/226
+loop5    7:5    0 614,5M  1 loop /snap/gnome-46-2404/164
+loop6    7:6    0  91,7M  1 loop /snap/gtk-common-themes/1535
+loop7    7:7    0   1,5M  1 loop /snap/hwctl/123
+loop8    7:8    0   402M  1 loop /snap/mesa-2404/1839
+loop9    7:9    0  18,8M  1 loop /snap/prompting-client/222
+loop10   7:10   0  11,8M  1 loop /snap/snap-store/1390
+loop11   7:11   0  50,1M  1 loop /snap/snapd/27710
+loop12   7:12   0   828K  1 loop /snap/snapd-desktop-integration/391
+sda      8:0    0    30G  0 disk 
+├─sda1   8:1    0     1M  0 part 
+└─sda2   8:2    0    30G  0 part /
+sr0     11:0    1  1024M  1 rom  
+
+===== USO DEL DISCO =====
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sda2         30G    11G   18G  37% /
+
+===== TARJETA GRAFICA GPU =====
+00:02.0 VGA compatible controller: VMware SVGA II Adapter
+
+===== PROCESOS CON MAYOR USO DE CPU =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+denilson    2636  4.4 12.7 3874904 346452 ?      Ssl  08:29   0:07 /usr/bin/gnome-shell --mode=ubuntu
+denilson    2892  1.9  1.3 500788 37932 ?        Sl   08:29   0:03 /usr/libexec/ibus-extension-gtk3
+denilson    3507  1.4  8.5 1638904 231816 ?      Sl   08:29   0:02 /usr/bin/ptyxis --gapplication-service
+root           1  0.6  0.6  25208 16448 ?        Ss   08:27   0:01 /usr/lib/systemd/systemd --switched-root --system --deserialize=53 splash
+denilson    3368  0.3  2.6 3124796 72176 ?       Sl   08:29   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+
+===== PROCESOS CON MAYOR USO DE RAM =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+denilson    2636  4.4 12.7 3874904 346452 ?      Ssl  08:29   0:07 /usr/bin/gnome-shell --mode=ubuntu
+denilson    3507  1.4  8.5 1638904 231816 ?      Sl   08:29   0:02 /usr/bin/ptyxis --gapplication-service
+denilson    3662  0.2  4.3 1127768 118676 ?      Sl   08:30   0:00 /usr/libexec/mutter-x11-frames
+denilson    3705  0.0  2.6 374012 72568 ?        Sl   08:30   0:00 /usr/libexec/ibus-x11
+denilson    3368  0.3  2.6 3124796 72176 ?       Sl   08:29   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+
+========================================
+       FIN DEL REPORTE
+========================================
