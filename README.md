@@ -2,30 +2,46 @@
 
 ## Descripción
 
-Este trabajo consiste en la creación de un script en Bash que permite identificar información del hardware y software de un sistema operativo Ubuntu mientras se encuentra en funcionamiento.
+Este trabajo fue desarrollado para el curso de Sistemas Operativos.
 
-Para realizar el trabajo se utilizó Ubuntu mediante una máquina virtual en VirtualBox.
+Se creó un script en Bash llamado `info_sistemas.sh`, cuya función es identificar los principales componentes de hardware y software de un equipo que utilice Linux/Ubuntu.
 
-## Objetivo
+Además, el script permite observar el consumo de recursos y los procesos que se encuentran en ejecución en el momento del análisis.
 
-Identificar los principales componentes de hardware y observar algunos recursos de software y procesos que se ejecutan en Ubuntu mediante comandos de Linux agrupados en un script Bash.
+## Funciones del script
 
-## Información que muestra el script
+El script obtiene información sobre:
 
-El script permite obtener información sobre:
+### Hardware
+- Procesador (CPU)
+- Memoria RAM
+- Almacenamiento
+- Tarjeta gráfica (GPU)
+- Interfaces de red
 
-- Sistema operativo y versión.
-- Kernel y arquitectura.
-- Procesador (CPU).
-- Memoria RAM.
-- Almacenamiento y uso del disco.
-- Tarjeta gráfica (GPU).
-- Procesos con mayor consumo de CPU.
-- Procesos con mayor consumo de memoria RAM.
+### Software
+- Sistema operativo
+- Versión del kernel
+- Arquitectura
+- Programas y paquetes instalados
+- Procesos activos
+- Procesos con mayor consumo de CPU
+- Procesos con mayor consumo de memoria RAM
+
+## Reporte del sistema
+
+Al finalizar el análisis, el script genera automáticamente dos archivos:
+
+- Un reporte en formato `.txt`
+- Un reporte en formato `.html`
+
+El reporte HTML organiza los resultados en tablas para facilitar su lectura y puede abrirse desde un navegador.
+
+Desde el navegador también puede imprimirse o guardarse como archivo PDF.
 
 ## Ejecución
 
-Primero se otorgan permisos de ejecución al archivo:
+Primero se deben dar permisos de ejecución al script:
 
 ```bash
 chmod +x info_sistemas.sh
